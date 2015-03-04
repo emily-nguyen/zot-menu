@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED7596EA1AA6BBA70093CC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7596E91AA6BBA70093CC5D /* main.m */; };
+		ED7596ED1AA6BBA70093CC5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7596EC1AA6BBA70093CC5D /* AppDelegate.m */; };
+		ED7596F51AA6BBA70093CC5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7596F41AA6BBA70093CC5D /* Images.xcassets */; };
+		ED7597041AA6BBA70093CC5D /* Zot_MenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7597031AA6BBA70093CC5D /* Zot_MenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7596FE1AA6BBA70093CC5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7596DC1AA6BBA70093CC5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7596E31AA6BBA70093CC5D;
+			remoteInfo = "Zot Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED7596E41AA6BBA70093CC5D /* Zot Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zot Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7596E81AA6BBA70093CC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7596E91AA6BBA70093CC5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7596EB1AA6BBA70093CC5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED7596EC1AA6BBA70093CC5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED7596F41AA6BBA70093CC5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED7596FD1AA6BBA70093CC5D /* Zot MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zot MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7597021AA6BBA70093CC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7597031AA6BBA70093CC5D /* Zot_MenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zot_MenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7596E11AA6BBA70093CC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7596FA1AA6BBA70093CC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7596DB1AA6BBA70093CC5D = {
+			isa = PBXGroup;
+			children = (
+				ED7596E61AA6BBA70093CC5D /* Zot Menu */,
+				ED7597001AA6BBA70093CC5D /* Zot MenuTests */,
+				ED7596E51AA6BBA70093CC5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7596E51AA6BBA70093CC5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7596E41AA6BBA70093CC5D /* Zot Menu.app */,
+				ED7596FD1AA6BBA70093CC5D /* Zot MenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7596E61AA6BBA70093CC5D /* Zot Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ED7596EB1AA6BBA70093CC5D /* AppDelegate.h */,
+				ED7596EC1AA6BBA70093CC5D /* AppDelegate.m */,
+				ED7596F41AA6BBA70093CC5D /* Images.xcassets */,
+				ED7596E71AA6BBA70093CC5D /* Supporting Files */,
+			);
+			path = "Zot Menu";
+			sourceTree = "<group>";
+		};
+		ED7596E71AA6BBA70093CC5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7596E81AA6BBA70093CC5D /* Info.plist */,
+				ED7596E91AA6BBA70093CC5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED7597001AA6BBA70093CC5D /* Zot MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7597031AA6BBA70093CC5D /* Zot_MenuTests.m */,
+				ED7597011AA6BBA70093CC5D /* Supporting Files */,
+			);
+			path = "Zot MenuTests";
+			sourceTree = "<group>";
+		};
+		ED7597011AA6BBA70093CC5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7597021AA6BBA70093CC5D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7596E31AA6BBA70093CC5D /* Zot Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7597071AA6BBA70093CC5D /* Build configuration list for PBXNativeTarget "Zot Menu" */;
+			buildPhases = (
+				ED7596E01AA6BBA70093CC5D /* Sources */,
+				ED7596E11AA6BBA70093CC5D /* Frameworks */,
+				ED7596E21AA6BBA70093CC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zot Menu";
+			productName = "Zot Menu";
+			productReference = ED7596E41AA6BBA70093CC5D /* Zot Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7596FC1AA6BBA70093CC5D /* Zot MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED75970A1AA6BBA70093CC5D /* Build configuration list for PBXNativeTarget "Zot MenuTests" */;
+			buildPhases = (
+				ED7596F91AA6BBA70093CC5D /* Sources */,
+				ED7596FA1AA6BBA70093CC5D /* Frameworks */,
+				ED7596FB1AA6BBA70093CC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7596FF1AA6BBA70093CC5D /* PBXTargetDependency */,
+			);
+			name = "Zot MenuTests";
+			productName = "Zot MenuTests";
+			productReference = ED7596FD1AA6BBA70093CC5D /* Zot MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7596DC1AA6BBA70093CC5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Emily Nguyen";
+				TargetAttributes = {
+					ED7596E31AA6BBA70093CC5D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					ED7596FC1AA6BBA70093CC5D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ED7596E31AA6BBA70093CC5D;
+					};
+				};
+			};
+			buildConfigurationList = ED7596DF1AA6BBA70093CC5D /* Build configuration list for PBXProject "Zot Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED7596DB1AA6BBA70093CC5D;
+			productRefGroup = ED7596E51AA6BBA70093CC5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7596E31AA6BBA70093CC5D /* Zot Menu */,
+				ED7596FC1AA6BBA70093CC5D /* Zot MenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7596E21AA6BBA70093CC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7596F51AA6BBA70093CC5D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7596FB1AA6BBA70093CC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7596E01AA6BBA70093CC5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7596ED1AA6BBA70093CC5D /* AppDelegate.m in Sources */,
+				ED7596EA1AA6BBA70093CC5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7596F91AA6BBA70093CC5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7597041AA6BBA70093CC5D /* Zot_MenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7596FF1AA6BBA70093CC5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7596E31AA6BBA70093CC5D /* Zot Menu */;
+			targetProxy = ED7596FE1AA6BBA70093CC5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED7597051AA6BBA70093CC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED7597061AA6BBA70093CC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7597081AA6BBA70093CC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zot Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED7597091AA6BBA70093CC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zot Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED75970B1AA6BBA70093CC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zot MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zot Menu.app/Zot Menu";
+			};
+			name = Debug;
+		};
+		ED75970C1AA6BBA70093CC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zot MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zot Menu.app/Zot Menu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7596DF1AA6BBA70093CC5D /* Build configuration list for PBXProject "Zot Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7597051AA6BBA70093CC5D /* Debug */,
+				ED7597061AA6BBA70093CC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7597071AA6BBA70093CC5D /* Build configuration list for PBXNativeTarget "Zot Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7597081AA6BBA70093CC5D /* Debug */,
+				ED7597091AA6BBA70093CC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED75970A1AA6BBA70093CC5D /* Build configuration list for PBXNativeTarget "Zot MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED75970B1AA6BBA70093CC5D /* Debug */,
+				ED75970C1AA6BBA70093CC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7596DC1AA6BBA70093CC5D /* Project object */;
+}
