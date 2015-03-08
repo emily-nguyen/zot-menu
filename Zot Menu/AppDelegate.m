@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeView.h"
 
 @interface AppDelegate ()
 
@@ -20,61 +21,15 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Override point for customization after application launch.
-    CGRect bounds = self.window.bounds;
+    CGRect frame = self.window.bounds;
     
     // Create home screen view and add it to the window.
-    UIView *view = [[UIView alloc] initWithFrame:bounds];
+    HomeView *view = [[HomeView alloc] initWithFrame:frame];
     view.backgroundColor = [UIColor yellowColor];
     [self.window addSubview:view];
-    
-    // CGRectMake parameters
-    int width = 100;
-    int height;
-    float xPos = (view.frame.size.width - width) / 2;
-    int yPos;
-    
-    // Create Zot Menu title label and add it to the home screen.
-    yPos = 75;
-    height = 50;
-    
-    CGRect labelFrame = CGRectMake(xPos, yPos, width, height);
-    UILabel* label = [[UILabel alloc] initWithFrame: labelFrame];
-    label.text = @"ZOT MENU";
-    [view addSubview:label];
-    
-    // Button height and frame
-    height = 30;
-    
-    // Create Brandywine button and add it to the home screen.
-    yPos = 175;
-    
-    CGRect buttonFrame = CGRectMake(xPos, yPos, width, height);
-    UIButton *button1 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button1 setTitle:@"Brandywine" forState:UIControlStateNormal];
-    button1.frame = buttonFrame;
-    [view addSubview:button1];
-    
-    // Create Pippin button and add it to the home screen.
-    yPos = 250;
-    
-    buttonFrame = CGRectMake(xPos, yPos, width, height);
-    UIButton *button2 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button2 setTitle:@"Pippin" forState:UIControlStateNormal];
-    button2.frame = buttonFrame;
-    [view addSubview:button2];
-    
-    // Create Lot 5 button and add it to the home screen.
-    yPos = 325;
-    
-    buttonFrame = CGRectMake(xPos, yPos, width, height);
-    UIButton *button3 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button3 setTitle:@"Lot 5" forState:UIControlStateNormal];
-    button3.frame = buttonFrame;
-    [view addSubview:button3];
-    
+        
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-
     return YES;
 }
 
