@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED0292FE1AA7A3EB00776B73 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0292FD1AA7A3EB00776B73 /* HomeView.m */; };
+		ED04BA3D1AAD120800F7B7C1 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED04BA3C1AAD120800F7B7C1 /* WebViewController.m */; };
+		ED04BA401AAD202600F7B7C1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED04BA3F1AAD202600F7B7C1 /* HomeViewController.m */; };
 		ED7596EA1AA6BBA70093CC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7596E91AA6BBA70093CC5D /* main.m */; };
 		ED7596ED1AA6BBA70093CC5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7596EC1AA6BBA70093CC5D /* AppDelegate.m */; };
 		ED7596F51AA6BBA70093CC5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7596F41AA6BBA70093CC5D /* Images.xcassets */; };
@@ -25,8 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED0292FC1AA7A3EB00776B73 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeView.h; path = ../HomeView.h; sourceTree = "<group>"; };
-		ED0292FD1AA7A3EB00776B73 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeView.m; path = ../HomeView.m; sourceTree = "<group>"; };
+		ED04BA3B1AAD120800F7B7C1 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		ED04BA3C1AAD120800F7B7C1 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		ED04BA3E1AAD202600F7B7C1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		ED04BA3F1AAD202600F7B7C1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		ED7596E41AA6BBA70093CC5D /* Zot Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zot Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7596E81AA6BBA70093CC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7596E91AA6BBA70093CC5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,10 +80,12 @@
 		ED7596E61AA6BBA70093CC5D /* Zot Menu */ = {
 			isa = PBXGroup;
 			children = (
-				ED0292FC1AA7A3EB00776B73 /* HomeView.h */,
-				ED0292FD1AA7A3EB00776B73 /* HomeView.m */,
 				ED7596EB1AA6BBA70093CC5D /* AppDelegate.h */,
 				ED7596EC1AA6BBA70093CC5D /* AppDelegate.m */,
+				ED04BA3E1AAD202600F7B7C1 /* HomeViewController.h */,
+				ED04BA3F1AAD202600F7B7C1 /* HomeViewController.m */,
+				ED04BA3B1AAD120800F7B7C1 /* WebViewController.h */,
+				ED04BA3C1AAD120800F7B7C1 /* WebViewController.m */,
 				ED7596F41AA6BBA70093CC5D /* Images.xcassets */,
 				ED7596E71AA6BBA70093CC5D /* Supporting Files */,
 			);
@@ -211,9 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED0292FE1AA7A3EB00776B73 /* HomeView.m in Sources */,
 				ED7596ED1AA6BBA70093CC5D /* AppDelegate.m in Sources */,
 				ED7596EA1AA6BBA70093CC5D /* main.m in Sources */,
+				ED04BA401AAD202600F7B7C1 /* HomeViewController.m in Sources */,
+				ED04BA3D1AAD120800F7B7C1 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

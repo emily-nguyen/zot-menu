@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HomeView.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,12 +21,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Override point for customization after application launch.
-    CGRect frame = self.window.bounds;
     
-    // Create home screen view and add it to the window.
-    HomeView *view = [[HomeView alloc] initWithFrame:frame];
-    view.backgroundColor = [UIColor yellowColor];
-    [self.window addSubview:view];
+    HomeViewController *hvc = [[HomeViewController alloc] init];
+    
+    self.window.rootViewController = hvc; 
         
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
