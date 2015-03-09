@@ -17,6 +17,11 @@
     self.view = webView;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.view setNeedsDisplay];
+}
+
 - (void)setURL:(NSURL *)URL
 {
     _URL = URL;
