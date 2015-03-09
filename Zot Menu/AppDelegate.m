@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HomeViewController.h"
+#import "WebViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,12 @@
     
     HomeViewController *hvc = [[HomeViewController alloc] init];
     
-    self.window.rootViewController = hvc; 
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:hvc];
+    
+    WebViewController *wvc = [[WebViewController alloc] init];
+    hvc.webViewController = wvc;
+    
+    self.window.rootViewController = nc;
         
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

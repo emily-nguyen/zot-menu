@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+@class WebViewController;
+
 @interface HomeViewController : UIViewController
+
+@property (nonatomic) WebViewController *webViewController;
 
 @end
